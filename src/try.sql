@@ -1,0 +1,1 @@
+insert into Person(    ci, `name`, surname, `password`, email, civilStatus, sex, birth, phone, nationality, healthCard, carLicense) values(55618826, "juan", "colon", "zapallo1", "dad@gmail.com", 1, 1, 98792342341111, "092981793", "uruguayo", false, false);

@@ -1,0 +1,17 @@
+here it goes the concept, the idea of a great program. it must be a web pages that makes usage of js in
+advanced ways, thinking in use frameworks in a future.
+Some aspects that it will include:
+
+myqsl database
+login
+sing up
+administrator user
+regular user
+
+it would be a good idea to transform the old project "Nimble Storage System" from java app into web app. 
+Because the idea its known and its just needed to change the leanguage.
+
+its needed to create some diagrams for users and database design, in the first version it would need
+just admin user.
+
+it would need some draws to understend the imaginary deposit
