@@ -2,7 +2,7 @@ FROM php:7.1-apache
 
 
 
-#RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install pdo pdo_mysql
 
 RUN echo "cd /usr/local/src" >> ~/.bashrc
  
