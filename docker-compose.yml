@@ -26,8 +26,8 @@ services:
       environment:
         MYSQL_DATABASE: "aNewBegening"
         MARIADB_AUTO_UPGRADE: 1
-        #MYSQL_USER: "root"
-        #MYSQL_PASSWORD: "root"
+        MYSQL_USER: "root"
+        MYSQL_PASSWORD: "root"
         MYSQL_ROOT_PASSWORD: "root"
       networks:
         - network
