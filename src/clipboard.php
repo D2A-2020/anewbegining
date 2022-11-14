@@ -48,7 +48,7 @@ include_once "model/person.php";
                         require "list_persona.php";
                     }catch(Exception $e){
                         echo "<em>Por el momento no podemos brindar esta informacion</em>";
-                    }
+                    } 
                     
                     
 
