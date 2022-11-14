@@ -1,3 +1,4 @@
+# THIS FILE MUST BE EDITED IN SERVER NO THROUGHT GIT
 FROM php:7.4-apache
 
 RUN apt-get update -y

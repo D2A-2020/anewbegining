@@ -44,8 +44,12 @@ include_once "model/person.php";
                <?php 
                     
                     //use datatables, create control bridge and method
-
-                    include_once "list_persona.php";
+                    try{
+                        include_once "list_persona.php";
+                    }catch(Exception $e){
+                        echo "<em>Por el momento no podemos brindar esta informacion</em>";
+                    }
+                    
                     
 
                     // $per =new Person();
