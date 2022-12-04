@@ -1,6 +1,6 @@
--- drop schema aNewBegening;
-create schema if not exists aNewBegening;
-use aNewBegening;
+-- drop schema aNewBigening;
+create schema if not exists aNewBigining;
+use aNewBigening;
 
 create table if not exists Person(
 	id int primary key AUTO_INCREMENT,
