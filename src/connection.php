@@ -2,9 +2,9 @@
 
 class Connection extends PDO{
 
-    private $dns = "mysql:host=db;dbname=aNewBegening;charset=utf8"; 
-    private $user = "root";
-    private $passwd = "root";
+    private $dns = "mysql:host=db;dbname=aNewBegining;charset=utf8"; 
+    private $user = "admin";
+    private $passwd = "admin";
     protected static $con;
 
     
