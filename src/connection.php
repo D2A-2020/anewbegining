@@ -3,8 +3,8 @@
 class Connection extends PDO{
 
     private $dns = "mysql:host=db;dbname=aNewBegining;charset=utf8"; 
-    private $user = "admin";
-    private $passwd = "admin";
+    private $user = "root";
+    private $passwd = "root";
     protected static $con;
 
     
@@ -24,7 +24,7 @@ class Connection extends PDO{
         new Connection();
         //this options allows to see the error at mysql's engine
         $connect_options_arr = array(PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
-        return new PDO("mysql:host=db;dbname=aNewBegining;charset=utf8","admin","admin",$connect_options_arr);
+        return new PDO("mysql:host=db;dbname=aNewBegining;charset=utf8","root","root",$connect_options_arr);
     }
 
     function ask($query, $array=[]){ //devuelve ordenado
